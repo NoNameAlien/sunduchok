@@ -1033,15 +1033,29 @@ namespace svin
 
             _currentTurn = TurnOwner.Pig;
 
-            // ИИ: выбираем ранг случайной карты из руки свина
-            var distinctRanks = _pigHand.Select(c => c.Rank).Distinct().ToList();
-            if (distinctRanks.Count == 0)
+            // ИИ: выбираем ранг, которого у свина больше всего (чтобы добирать до сундучка)
+            var rankGroups = _pigHand
+                .GroupBy(c => c.Rank)
+                .ToList();
+
+            if (rankGroups.Count == 0)
             {
                 _currentTurn = TurnOwner.Player;
                 return;
             }
 
-            Rank askedRank = distinctRanks[_rnd.Next(distinctRanks.Count)];
+            // сколько карт максимум по какому-то рангу
+            int maxCount = rankGroups.Max(g => g.Count());
+
+            // все ранги, у которых одинаково максимальное количество карт
+            var bestGroups = rankGroups
+                .Where(g => g.Count() == maxCount)
+                .ToList();
+
+            // выбираем один из лучших рангов случайно
+            var chosenGroup = bestGroups[_rnd.Next(bestGroups.Count)];
+            Rank askedRank = chosenGroup.Key;
+
 
             // 1) озвучка: "У вас есть ..." от свина + номер, с анимацией головы
             StartHeadAnimation();
