@@ -1,0 +1,610 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="snd_ru_dont_0_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_dont_0.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="snd_ru_e_4_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_e_4.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="snd_ru_start_game_1_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_start_game_1.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_deck_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_deck\s_deck_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_deck_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_deck\s_deck_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_left_have_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_left_have\s_left_have_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_39.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_deck_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_deck\s_deck_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_glaza_idle_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_glaza_idle\s_glaza_idle_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_left_have_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_left_have\s_left_have_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_music_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_music.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_shuffle_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\s_shuffle.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_all_card_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_left_have_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_left_have\s_left_have_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_2_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_2.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="snd_ru_11_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_11.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_suvenirs_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_suvenirs\s_suvenirs_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_suvenirs_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_suvenirs\s_suvenirs_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_e_7_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_e_7.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="snd_ru_start_game_2_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_start_game_2.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_all_card_45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_right_idle_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_right_idle\s_right_idle_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_12_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_12.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_right_idle_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_right_idle\s_right_idle_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_right_idle_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_right_idle\s_right_idle_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_left_have_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_left_have\s_left_have_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_7_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_7.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_all_card_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_9_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_9.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_left_have_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_left_have\s_left_have_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_suvenirs_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_suvenirs\s_suvenirs_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_card_done_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_card_done\s_card_done_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_e_13_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_e_13.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_deck_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_deck\s_deck_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_3_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_3.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="snd_ru_4_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_4.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_all_card_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_left_have_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_left_have\s_left_have_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_hand4_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_hand4\s_hand4_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_e_14_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_e_14.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_all_card_19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_start_game_4_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_start_game_4.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="snd_ru_start_game_repeat1_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_start_game_repeat1.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_all_card_42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_done_1_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_done_1.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_all_card_44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_done_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_done.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_card_done_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_card_done\s_card_done_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_10_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_10.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_right_idle_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_right_idle\s_right_idle_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_glaza_idle_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_glaza_idle\s_glaza_idle_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_left_have_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_left_have\s_left_have_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_e_10_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_e_10.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_right_idle_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_right_idle\s_right_idle_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_pig_give_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_pig_give.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_drop_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_drop\s_drop_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_e_8_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_e_8.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="snd_give_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_give.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="snd_ru_e_done_0_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_e_done_0.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="snd_ru_have_2_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_have_2.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="snd_ru_dont_2_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_dont_2.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_all_card_40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_start_game_0_ogg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_start_game_0.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="snd_ru_my_dont_2_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_my_dont_2.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="snd_ru_e_3_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_e_3.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="snd_ru_my_wait_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_my_wait.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_all_card_29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_card_done_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_card_done\s_card_done_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_right_idle_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_right_idle\s_right_idle_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_e_5_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_e_5.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="snd_ru_done_0_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_done_0.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="snd_pick_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_pick.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="snd_ru_dont_1_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_dont_1.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_all_card_47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_my_dont_0_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_my_dont_0.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_all_card_30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_card_done_02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_card_done\s_card_done_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_card_done_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_card_done\s_card_done_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_have_0_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_have_0.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_right_idle_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_right_idle\s_right_idle_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_give2_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_give2.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="snd_ru_my_dont_1_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_my_dont_1.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_all_card_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_suvenirs_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_suvenirs\s_suvenirs_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_e_6_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_e_6.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_all_card_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_start_game_3_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_start_game_3.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_all_card_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_have_1_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_have_1.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="snd_ru_13_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_13.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="snd_ru_e_11_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_e_11.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_ehead_idle_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_ehead_idle\s_ehead_idle_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_6_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_6.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_suvenirs_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_suvenirs\s_suvenirs_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_8_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_8.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_ehead_idle_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_ehead_idle\s_ehead_idle_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_ehave_0_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_ehave_0.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_all_card_43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_right_idle_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_right_idle\s_right_idle_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_start_game_go_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_start_game_go.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_deck_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_deck\s_deck_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_right_idle_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_right_idle\s_right_idle_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_e_12_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_e_12.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_ehead_idle_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_ehead_idle\s_ehead_idle_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_card_done_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_card_done\s_card_done_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_49.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_card_done_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_card_done\s_card_done_01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_5_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_5.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_left_have_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_left_have\s_left_have_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_start_game_0_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_start_game_0.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_all_card_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_14_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_14.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_deck_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_deck\s_deck_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_ehave_1_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_ehave_1.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="snd_ru_dont_3_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_dont_3.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_ehead_idle_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_ehead_idle\s_ehead_idle_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_my_dont_3_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_my_dont_3.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_all_card_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snd_ru_e_9_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_e_9.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="snd_ru_e_2_ogg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\audiogroup\sound\snd_ru_e_2.ogg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s_left_have_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_left_have\s_left_have_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_card_done_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_card_done\s_card_done_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_drop_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_drop\s_drop_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_left_have_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_left_have\s_left_have_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_all_card_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_all_card\s_all_card_50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_triangle_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_triangle\s_triangle_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_shop_cards_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_shop_cards\s_shop_cards_0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_shop_cards_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_shop_cards\s_shop_cards_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_shop_cards_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_shop_cards\s_shop_cards_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="s_shop_cards_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_shop_cards\s_shop_cards_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\images\s_ui_menu\x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

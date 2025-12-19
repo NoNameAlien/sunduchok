@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9884BE19-4A8F-4AE3-96F6-31BEAB3195F8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>svin</RootNamespace>
+    <AssemblyName>svin</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Card.cs" />
+    <Compile Include="Deck.cs" />
+    <Compile Include="FormMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMainMenu.Designer.cs">
+      <DependentUpon>FormMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGame.Designer.cs">
+      <DependentUpon>FormGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormShop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormMainMenu.resx">
+      <DependentUpon>FormMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGame.resx">
+      <DependentUpon>FormGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\s_ui_menu\x.png" />
+    <None Include="images\s_shop_cards\s_shop_cards_3.png" />
+    <None Include="images\s_shop_cards\s_shop_cards_2.png" />
+    <None Include="images\s_shop_cards\s_shop_cards_1.png" />
+    <None Include="images\s_shop_cards\s_shop_cards_0.png" />
+    <None Include="images\s_triangle\s_triangle_0.png" />
+    <None Include="images\s_suvenirs\s_suvenirs_4.png" />
+    <None Include="images\s_suvenirs\s_suvenirs_3.png" />
+    <None Include="images\s_suvenirs\s_suvenirs_2.png" />
+    <None Include="images\s_suvenirs\s_suvenirs_1.png" />
+    <None Include="images\s_suvenirs\s_suvenirs_0.png" />
+    <None Include="images\s_right_idle\s_right_idle_8.png" />
+    <None Include="images\s_right_idle\s_right_idle_7.png" />
+    <None Include="images\s_right_idle\s_right_idle_6.png" />
+    <None Include="images\s_right_idle\s_right_idle_5.png" />
+    <None Include="images\s_right_idle\s_right_idle_4.png" />
+    <None Include="images\s_right_idle\s_right_idle_3.png" />
+    <None Include="images\s_right_idle\s_right_idle_2.png" />
+    <None Include="images\s_right_idle\s_right_idle_1.png" />
+    <None Include="images\s_right_idle\s_right_idle_0.png" />
+    <None Include="images\s_hand4\s_hand4_1.png" />
+    <None Include="audiogroup\sound\snd_done.ogg.wav" />
+    <None Include="audiogroup\sound\snd_give.ogg.wav" />
+    <None Include="audiogroup\sound\snd_give2.ogg.wav" />
+    <None Include="audiogroup\sound\snd_music.ogg.wav" />
+    <None Include="audiogroup\sound\snd_pick.ogg.wav" />
+    <None Include="audiogroup\sound\snd_pig_give.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_2.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_3.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_4.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_5.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_6.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_7.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_8.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_9.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_10.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_11.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_12.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_13.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_14.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_done_0.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_done_1.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_dont_0.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_dont_1.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_dont_2.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_dont_3.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_e_2.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_e_3.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_e_4.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_e_5.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_e_6.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_e_7.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_e_8.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_e_9.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_e_10.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_e_11.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_e_12.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_e_13.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_e_14.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_e_done_0.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_ehave_0.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_ehave_1.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_have_0.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_have_1.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_have_2.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_my_dont_0.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_my_dont_1.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_my_dont_2.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_my_dont_3.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_my_wait.ogg.wav" />
+    <Content Include="audiogroup\sound\snd_ru_start_game_0.ogg.wav" />
+    <None Include="audiogroup\sound\s_shuffle.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_start_game_1.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_start_game_2.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_start_game_3.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_start_game_4.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_start_game_go.ogg.wav" />
+    <None Include="audiogroup\sound\snd_ru_start_game_repeat1.ogg.wav" />
+    <None Include="images\s_ehead_idle\s_ehead_idle_0.png" />
+    <None Include="images\s_ehead_idle\s_ehead_idle_1.png" />
+    <None Include="images\s_ehead_idle\s_ehead_idle_2.png" />
+    <None Include="images\s_ehead_idle\s_ehead_idle_3.png" />
+    <None Include="images\s_glaza_idle\s_glaza_idle_0.png" />
+    <None Include="images\s_glaza_idle\s_glaza_idle_1.png" />
+    <None Include="images\s_deck\s_deck_0.png" />
+    <None Include="images\s_left_have\s_left_have_9.png" />
+    <None Include="images\s_left_have\s_left_have_0.png" />
+    <None Include="images\s_left_have\s_left_have_1.png" />
+    <None Include="images\s_left_have\s_left_have_2.png" />
+    <None Include="images\s_left_have\s_left_have_3.png" />
+    <None Include="images\s_left_have\s_left_have_4.png" />
+    <None Include="images\s_left_have\s_left_have_5.png" />
+    <None Include="images\s_left_have\s_left_have_6.png" />
+    <None Include="images\s_left_have\s_left_have_7.png" />
+    <None Include="images\s_left_have\s_left_have_8.png" />
+    <None Include="images\s_all_card\s_all_card_9.png" />
+    <None Include="images\s_all_card\s_all_card_10.png" />
+    <None Include="images\s_all_card\s_all_card_11.png" />
+    <None Include="images\s_all_card\s_all_card_12.png" />
+    <None Include="images\s_all_card\s_all_card_13.png" />
+    <None Include="images\s_all_card\s_all_card_14.png" />
+    <None Include="images\s_all_card\s_all_card_15.png" />
+    <None Include="images\s_all_card\s_all_card_16.png" />
+    <None Include="images\s_all_card\s_all_card_17.png" />
+    <None Include="images\s_all_card\s_all_card_18.png" />
+    <None Include="images\s_all_card\s_all_card_19.png" />
+    <None Include="images\s_all_card\s_all_card_20.png" />
+    <None Include="images\s_all_card\s_all_card_21.png" />
+    <None Include="images\s_all_card\s_all_card_22.png" />
+    <None Include="images\s_all_card\s_all_card_23.png" />
+    <None Include="images\s_all_card\s_all_card_24.png" />
+    <None Include="images\s_all_card\s_all_card_25.png" />
+    <None Include="images\s_all_card\s_all_card_26.png" />
+    <None Include="images\s_all_card\s_all_card_27.png" />
+    <None Include="images\s_all_card\s_all_card_28.png" />
+    <None Include="images\s_all_card\s_all_card_29.png" />
+    <None Include="images\s_all_card\s_all_card_30.png" />
+    <None Include="images\s_all_card\s_all_card_31.png" />
+    <None Include="images\s_all_card\s_all_card_32.png" />
+    <None Include="images\s_all_card\s_all_card_33.png" />
+    <None Include="images\s_all_card\s_all_card_34.png" />
+    <None Include="images\s_all_card\s_all_card_35.png" />
+    <None Include="images\s_all_card\s_all_card_36.png" />
+    <None Include="images\s_all_card\s_all_card_37.png" />
+    <None Include="images\s_all_card\s_all_card_38.png" />
+    <None Include="images\s_all_card\s_all_card_39.png" />
+    <None Include="images\s_all_card\s_all_card_40.png" />
+    <None Include="images\s_all_card\s_all_card_41.png" />
+    <None Include="images\s_all_card\s_all_card_42.png" />
+    <None Include="images\s_all_card\s_all_card_43.png" />
+    <None Include="images\s_all_card\s_all_card_44.png" />
+    <None Include="images\s_all_card\s_all_card_45.png" />
+    <None Include="images\s_all_card\s_all_card_46.png" />
+    <None Include="images\s_all_card\s_all_card_47.png" />
+    <None Include="images\s_all_card\s_all_card_48.png" />
+    <None Include="images\s_all_card\s_all_card_49.png" />
+    <None Include="images\s_all_card\s_all_card_50.png" />
+    <None Include="images\s_all_card\s_all_card_51.png" />
+    <None Include="images\s_all_card\s_all_card_0.png" />
+    <None Include="images\s_all_card\s_all_card_1.png" />
+    <None Include="images\s_all_card\s_all_card_2.png" />
+    <None Include="images\s_all_card\s_all_card_3.png" />
+    <None Include="images\s_all_card\s_all_card_4.png" />
+    <None Include="images\s_all_card\s_all_card_5.png" />
+    <None Include="images\s_all_card\s_all_card_6.png" />
+    <None Include="images\s_all_card\s_all_card_7.png" />
+    <None Include="images\s_all_card\s_all_card_8.png" />
+    <None Include="images\s_drop\s_drop_0.png" />
+    <None Include="images\s_drop\s_drop_1.png" />
+    <None Include="images\s_card_done\s_card_done_0.png" />
+    <None Include="images\s_card_done\s_card_done_1.png" />
+    <None Include="images\s_deck\s_deck_1.png" />
+    <None Include="images\s_deck\s_deck_2.png" />
+    <None Include="images\s_deck\s_deck_3.png" />
+    <None Include="images\s_deck\s_deck_4.png" />
+    <None Include="images\s_card_done\s_card_done_01.png" />
+    <None Include="images\s_card_done\s_card_done_2.png" />
+    <None Include="images\s_card_done\s_card_done_3.png" />
+    <None Include="images\s_card_done\s_card_done_4.png" />
+    <Content Include="images\s_main_game.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
